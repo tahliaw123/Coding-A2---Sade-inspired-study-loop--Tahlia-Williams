@@ -1,0 +1,7 @@
+# one low note per part of my piano cell
+# Bass idea inspired by Sade's punchy drums and bass (Smith,2026, The Culture Crypt)
+# playNote(note, beats = ...) format from Week 03 seminar slides
+playNote(45, beats = 4)
+playNote(38, beats = 4)
+playNote(43, beats = 4)
+playNote(36, beats = 4)# New TunePad cell
