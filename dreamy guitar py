@@ -1,0 +1,12 @@
+# My guitar melody: 8 notes of 1 beat, repeated twice = 16 beats
+# playNote(note, beats = ...) format from Week 03 seminar slides (UTS, 2026)
+# Notes: I chose and changed the notes by ear
+for i in range(2):
+    playNote(67, beats = 1)
+    playNote(69, beats = 1)
+    playNote(72, beats = 1)
+    playNote(69, beats = 1)
+    playNote(67, beats = 1)
+    playNote(65, beats = 1)
+    playNote(71, beats = 1)
+    playNote(67, beats = 1)
