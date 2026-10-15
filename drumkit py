@@ -1,0 +1,6 @@
+# kick and snare with space between hits
+# Inspired by Sade's relaxed drums (Smith, [2026], The Culture Crypt)
+# playNote(pad, beats = ...) and for loop format from Week 03 seminar slides
+for i in range(4):
+    playNote(0, beats = 2)   # kick, then wait 2 beats
+    playNote(2, beats = 2)   # snare, then wait 2 beats# New TunePad cell
