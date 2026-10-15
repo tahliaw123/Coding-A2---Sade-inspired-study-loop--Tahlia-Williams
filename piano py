@@ -1,0 +1,30 @@
+# Sade-inspired chord loop: 
+# My piano cell: 4-chord loop, 4 beats per chord (16 beats total)
+# playNote(note, beats = ...) format from Week 03 seminar slides (UTS, 2026)
+# sustain option seen in code TunePad generated when I recorded notes
+# beats=0 was found in learn tunepad guide
+# Note choices: my own, built from the white keys of C major
+
+# Chord 1
+playNote(57, beats=0, sustain=4)
+playNote(60, beats=0, sustain=4)
+playNote(64, beats=0, sustain=4)
+playNote(67, beats=4)
+
+# Chord 2
+playNote(57, beats=0, sustain=4)
+playNote(60, beats=0, sustain=4)
+playNote(62, beats=0, sustain=4)
+playNote(65, beats=4)
+
+# Chord 3
+playNote(55, beats=0, sustain=4)
+playNote(59, beats=0, sustain=4)
+playNote(62, beats=0, sustain=4)
+playNote(65, beats=4)
+
+# Chord 4
+playNote(60, beats=0, sustain=4)
+playNote(64, beats=0, sustain=4)
+playNote(67, beats=0, sustain=4)
+playNote(71, beats=4)
